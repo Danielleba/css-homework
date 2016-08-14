@@ -1,0 +1,109 @@
+body {
+  background: rgb(20%, 20%, 20%);
+}
+.maincontent {
+  position: relative;
+  width: 600px;
+  background: rgb(80%, 80%, 70%);
+  box-shadow: 7px 10px 0 1px rgba(0,0,0,.4);
+  margin: auto;
+}
+header {
+  width: 600px;
+  height: 50px;
+  background: rgb(50%, 50%, 70%);
+  border-bottom: 4px solid rgb(30%, 10%, 40%);
+  color: white;
+  text-indent: 20px;
+  line-height: 50px;
+  font-weight: 300;
+  margin: auto;
+
+}
+ul {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.navigation {
+  background: rgba(100%, 100%, 100%, .6);
+  width: 200px;
+  height: 270px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.mainnav {
+  height: 30px;
+  line-height: 30px;
+  text-indent: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.mainnav:first-child {
+  color: white;
+  background: rgb(50%, 50%, 70%);
+  height: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  border-top-right-radius: 5px;
+  margin: 0px;
+}
+
+.mainnav>li:nth-of-type(even){
+  background: rgba(0, 0, 0, .1);
+}
+a:hover {
+  color: rgb(0%,0%,70%);
+}
+.secnav li{
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-indent: 20px;
+}
+.secnav {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.articles:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.articles {
+  width: 300px;
+  float: right;
+  margin-right: 50px;
+}
+article:nth-child(-n+2) {
+  border-bottom: 1px solid black;
+}
+footer {
+  width: 600px;
+  clear:both;
+  background: rgb(10%, 10%, 30%);
+  margin: auto;
+  height: 30px;
+  text-align: center;
+}
+footer p {
+  font-weight: 300;
+  color: white;
+  display: inline;
+  line-height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 10px;
+  padding-left: :10px;
+}
+footer p:nth-child(-n+2) {
+    border-right: 1px solid white;
+    line-height: 20px;
+}
